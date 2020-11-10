@@ -5,6 +5,10 @@ inoremap {} {}<++><Left><Left><Left><Left><Esc>i
 "the remapping for JumpForward must use imap, the recursive mode.
 imap <Tab> <Plug>IMAP_JumpForward
 
+"Implementation of one-line macros via IMAP()
+call IMAP('NPA', 'np.array(<++>)<++>', 'python')
+call IMAP('IDM', "np.eye(<++>, dtype='int64')<++>", 'python')
+call IMAP('ZER', "np.zeros(<++>, dtype='int64')<++>", 'python')
 
 "Implementation of macros via vim-macrobatics
 "This method has no limit on the number of macros recorded.
