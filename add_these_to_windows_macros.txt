@@ -1,1 +1,1 @@
-python filetype macro: ALI
+python filetype macro: python.ALI
