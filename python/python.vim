@@ -16,7 +16,7 @@ call IMAP('ZER', "np.zeros(<++>, dtype='int64')<++>", 'python')
 inoremap DOC """<Esc>:call macrobatics#playNamedMacro('python.DOC')<cr>
 inoremap OLN """<Esc>:call macrobatics#playNamedMacro('python.OLN')<cr>
 "the macro for aligning copy-pasted codes
-nnoremap <leader><Space> :call macrobatics#playNamedMacro('ALI')<cr>
+nnoremap <leader><Space> :call macrobatics#playNamedMacro('python.ALI')<cr>
 
 "Implementation of macros via the Vim built-in functionality
 "There can be at most 26 macros at any given time.
