@@ -15,7 +15,3 @@ nmap <leader>ll <C-p>
 "the second argument must be wrapped by double quotes
 "macro for code block
 call IMAP('CBL', "```\<cr><++>\<cr>```\<cr><++>", 'markdown')
-
-"set color column
-highlight ColorColumn ctermbg=gray
-set colorcolumn=80
