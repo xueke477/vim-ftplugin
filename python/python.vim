@@ -25,7 +25,3 @@ nnoremap <leader><Space> :call macrobatics#playNamedMacro('python.ALI')<cr>
 "inoremap DOC """<Esc>@za
 "macro @y records operations the same as for OLN above
 "inoremap OLN """<Esc>@ya
-"
-"set color column
-highlight ColorColumn ctermbg=gray
-set colorcolumn=80
