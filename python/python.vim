@@ -25,7 +25,3 @@ nnoremap <leader><Space> :call macrobatics#playNamedMacro('python.ALI')<cr>
 "inoremap DOC """<Esc>@za
 "macro @y records operations the same as for OLN above
 "inoremap OLN """<Esc>@ya
-"
-"set 'textwidth' to 79 characters for filetype python
-  autocmd FileType python setlocal textwidth=79
-augroup END
