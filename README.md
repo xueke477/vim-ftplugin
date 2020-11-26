@@ -4,7 +4,7 @@ This directory contains filetype-specific configurations of Vim that I use often
 
 ## Filetype Plugins
 
-Filetype plugins are those Vim scripts loaded only for a specific file type. Note that the files in `~/.vim/pack/FOO/start/FOO` are also called "plugins" and some of them have a `~/.vim/pack/FOO/start/FOO/ftplugin` as well, but they are loaded every time Vim starts.
+Filetype plugins are those Vim scripts loaded only for a specific file type. 
 
    * The names of the filetype plugin documents should be `<filetype>_foo.vim`. Or simply create a directory with the same name as `filetype` and put all the vim scripts in it. In the latter case the names of the vim scripts don't matter. For example, all the Python filetype plugins go into the directory `~/.vim/ftplugin/python` and TeX filetype plugins go into `~/.vim/ftplugin/tex`.
 
