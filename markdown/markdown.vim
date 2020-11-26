@@ -15,3 +15,7 @@ nmap <leader>ll <C-p>
 "the second argument must be wrapped by double quotes
 "macro for code block
 call IMAP('CBL', "```\<cr><++>\<cr>```\<cr><++>", 'markdown')
+
+"set 'textwidth' to 79 for filetype markdown
+  autocmd FileType markdown setlocal textwidth=79
+augroup END
