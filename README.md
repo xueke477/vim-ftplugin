@@ -1,8 +1,6 @@
 # My Filetype Configurations
 
-This directory contains filetype-specific configurations of Vim that I use often. The configuration files are Vim scripts (e.g. `FOO.vim`) from `~/.vim/ftplugin`. The actual plugins reside in `~/.vim/pack/FOO/start/FOO`, as the structure of Vim 8 recommends.
-
-The file `_vimrc_for_windows` is a copy of the `.vimrc` on my MacOS. It is used to sync the Vim on my Windows 10 PC.
+This directory contains filetype-specific configurations of Vim that I use often. The configuration files are Vim scripts (e.g. `FOO.vim`) from `~/.vim/ftplugin`. 
 
 ## Filetype Plugins
 
