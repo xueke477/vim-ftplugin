@@ -13,8 +13,8 @@ call IMAP('ZER', "np.zeros(<++>, dtype='int64')<++>", 'python')
 "Implementation of macros via vim-macrobatics
 "This method has no limit on the number of macros recorded.
 "normal mode after macro
-inoremap DOC """<Esc>:call macrobatics#playNamedMacro('python.DOC')<cr>
-inoremap OLN """<Esc>:call macrobatics#playNamedMacro('python.OLN')<cr>
+"inoremap DOC """<Esc>:call macrobatics#playNamedMacro('python.DOC')<cr>
+"inoremap OLN """<Esc>:call macrobatics#playNamedMacro('python.OLN')<cr>
 "the macro for aligning copy-pasted codes
 nnoremap <leader><Space> :call macrobatics#playNamedMacro('python.ALI')<cr>
 
