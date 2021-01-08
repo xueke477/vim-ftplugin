@@ -4,10 +4,10 @@
 set sw=0
 
 "set the max length of each line
-set textwidth=172
+"set textwidth=172
 
 "set a colorcolumn at length 172
-set colorcolumn=172
+"set colorcolumn=172
 
 "set auto-indentation
 "set pastetoggle=<F9>
